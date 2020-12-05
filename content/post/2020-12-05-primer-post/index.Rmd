@@ -1,0 +1,37 @@
+---
+title: Primer post
+author: Yhon Tiahuallpa
+date: '2020-12-05'
+slug: primer-post
+categories: []
+tags: []
+summary: "Hola si estas leyendo esto es porque revisas mis cosas personales, eso quiere decir que intentas conocerme un poco más asi que... hola!!!."
+---
+
+Hola si estas leyendo esto es porque revisas mis cosas personales, eso quiere decir que intentas conocerme un poco más asi que... hola!!!.
+
+
+- Primero debes saber que la idea de tener un lugar parecido a un diario digital me atrae desde hace un buen tiempo, por lo que tener este blog es un logro para mí.
+
+- Segundo, luego de buscar y buscar pude encontrar a Danielle Navarro, ella tiene una playlist con los videos explicando los pasos a seguir para usar blogdown y Github. $\frac{1}{2}$
+
+$$\sum_{1} \frac{1}{2} $$
+
+# Este es un titulo
+
+Si  quieres tener imagenes de una forma rapida y con la dimension que tu elijas usa la siguiente pagina, para insertarla
+
+![](https://placekitten.com/400/600)
+
+
+## Este es otro titulo pero subrayado
+
+Este es un link: https://placekitten.com/400/600
+
+### Este es el ultimo titulo pero mas parece un subtitulo
+
+Puedes ir a la siguiente pagina
+[Placekitten](https://placekitten.com/400/300)
+
+
+
