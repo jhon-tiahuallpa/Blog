@@ -1,0 +1,10 @@
+---
+output: hugodown::md_document
+title: "para"
+type: "post"
+summary: ""
+author: ""
+tags: []
+date: 2020-12-06
+---
+
