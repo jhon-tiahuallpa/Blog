@@ -1,6 +1,6 @@
 ---
 output: hugodown::md_document
-title: "Tercer post"
+title: "primer post"
 type: "post"
 summary: ""
 author: ""
