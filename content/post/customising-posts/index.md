@@ -58,8 +58,8 @@ This doesn't look *too* terrible, but the pure white background is jarring. What
 
 <div class="highlight">
 
-<pre class='chroma'><code class='language-r' data-lang='r'><span class='kr'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='o'>(</span><span class='nv'><a href='https://rstudio.github.io/thematic'>thematic</a></span><span class='o'>)</span>
-<span class='nf'><a href='https://rstudio.github.io/thematic/reference/thematic.html'>thematic_on</a></span><span class='o'>(</span>bg <span class='o'>=</span> <span class='s'>"#eeeeee"</span><span class='o'>)</span>
+<pre class='chroma'><code class='language-r' data-lang='r'><span class='kr'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='o'>(</span><span class='nv'><a href='https://rstudio.github.io/thematic/'>thematic</a></span><span class='o'>)</span>
+<span class='nf'><a href='https://rstudio.github.io/thematic/reference/thematic_on.html'>thematic_on</a></span><span class='o'>(</span>bg <span class='o'>=</span> <span class='s'>"#eeeeee"</span><span class='o'>)</span>
 <span class='nf'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='o'>(</span><span class='nv'>mpg</span>, <span class='nf'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='o'>(</span><span class='nv'>displ</span>, <span class='nv'>hwy</span><span class='o'>)</span><span class='o'>)</span> <span class='o'>+</span> <span class='nf'><a href='https://ggplot2.tidyverse.org/reference/geom_point.html'>geom_point</a></span><span class='o'>(</span><span class='o'>)</span> 
 
 </code></pre>

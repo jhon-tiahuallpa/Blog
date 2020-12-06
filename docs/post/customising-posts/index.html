@@ -57,15 +57,15 @@
       <nav>
   <ul class="menu">
     
-    <li><a href="../../">Home</a></li>
+    <li><a href="../../">Inicio</a></li>
     
-    <li><a href="../../about/">About</a></li>
+    <li><a href="../../about/">Acerca de mi</a></li>
     
     <li><a href="../../post/">Posts</a></li>
     
-    <li><a href="../../project/">Projects</a></li>
+    <li><a href="../../project/">Proyectos</a></li>
     
-    <li><a href="../../tags/">Tags</a></li>
+    <li><a href="../../tags/">Categorias</a></li>
     
   </ul>
 </nav>
@@ -119,8 +119,8 @@ colorAccent2: &quot;#8a2be2&quot;
 </div>
 <p>This doesn&rsquo;t look <em>too</em> terrible, but the pure white background is jarring. What I would prefer is to have the plot background blend into the website background. When I first wrote caladown I came up with my own system that allowed me to do this, but recently a better option has become available via the <a href="https://github.com/rstudio/thematic/">thematic</a> package. To set the background colour of my plots to the same colour as my page (i.e., <code>#eeeeee</code>), what I would do is this:</p>
 <div class="highlight">
-<pre class='chroma'><code class='language-r' data-lang='r'><span class='kr'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='o'>(</span><span class='nv'><a href='https://rstudio.github.io/thematic'>thematic</a></span><span class='o'>)</span>
-<span class='nf'><a href='https://rstudio.github.io/thematic/reference/thematic.html'>thematic_on</a></span><span class='o'>(</span>bg <span class='o'>=</span> <span class='s'>"#eeeeee"</span><span class='o'>)</span>
+<pre class='chroma'><code class='language-r' data-lang='r'><span class='kr'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='o'>(</span><span class='nv'><a href='https://rstudio.github.io/thematic/'>thematic</a></span><span class='o'>)</span>
+<span class='nf'><a href='https://rstudio.github.io/thematic/reference/thematic_on.html'>thematic_on</a></span><span class='o'>(</span>bg <span class='o'>=</span> <span class='s'>"#eeeeee"</span><span class='o'>)</span>
 <span class='nf'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='o'>(</span><span class='nv'>mpg</span>, <span class='nf'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='o'>(</span><span class='nv'>displ</span>, <span class='nv'>hwy</span><span class='o'>)</span><span class='o'>)</span> <span class='o'>+</span> <span class='nf'><a href='https://ggplot2.tidyverse.org/reference/geom_point.html'>geom_point</a></span><span class='o'>(</span><span class='o'>)</span> 
 
 </code></pre>
