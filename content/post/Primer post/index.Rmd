@@ -1,0 +1,13 @@
+---
+output: hugodown::md_document
+title: "Segundo post"
+type: "post"
+summary: ""
+author: ""
+tags: []
+date: 2020-12-06
+---
+
+La primera pagina que quisiera revisar es:
+
+[](https://www.tylermw.com/raybonsai-generate-procedural-3d-trees-in-r/)
