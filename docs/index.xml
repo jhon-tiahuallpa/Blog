@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>Segundo post</title>
+      <link>/post/segundo-post/</link>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/segundo-post/</guid>
+      <description>La primera pagina que quisiera revisar es:
+Link
+o quiza pueda ser algun otro</description>
+    </item>
+    
+    <item>
       <title>Primer post</title>
       <link>/post/primer-post/</link>
       <pubDate>Sat, 05 Dec 2020 00:00:00 +0000</pubDate>
