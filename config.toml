@@ -48,7 +48,7 @@ theme = "calade"
     weight = 1
 [[menu.main]]
     name = "Acerca de mi"
-    url = "/about/"
+    url = "/acerca-de-mi/"
     weight = 2
 [[menu.main]]
     name = "Posts"
